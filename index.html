@@ -1,67 +1,67 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <main>
-        <div class="wrap">
-            <div class="heading">
-                <section class="heading">
-                    <p class="ttile">notNotion</p>
-                    <p class="sub-heaidng">Manage And Search Your Pending Tasks In Click</p>
-                </section>
-            </div>
-
-            <section class="tast-manager">
-                <div class="search-box">
-                    <form id="serach">
-                        <input type="text" name="task" placeholder="Search Task" autocomplete="off">
-                        <button><i class="bi bi-x-circle reset"></i></button>
-                    </form>
-                </div>
-
-                <div class="task-box">
-                    <ul class="tasks">
-                        <li class="task">
-                            <span>Taks 1</span>
-                            <i class="bi bi-trash-fill delete"></i>
-                        </li>
-
-                        <li class="task">
-                            <span>Taks 2</span>
-                            <i class="bi bi-trash-fill"></i>
-                        </li>
-
-                        <li class="task">
-                            <span>Taks 3</span>
-                            <i class="bi bi-trash-fill"></i>
-                        </li>
-
-                        <li class="task">
-                            <span>Taks 4</span>
-                            <i class="bi bi-trash-fill"></i>
-                        </li>
-
-                    </ul>
-                    <form class="add">
-                        <input type="text" name="add-task" id="">
-                        <input type="submit" name="add-button" id="" value="Add">
-                    </form>
-                </div>
-
-                <div class="mesasge">
-                    <span>you have 3 pending tasks.</span>
-                    <button class="clear-all">Clear All</button>
-                </div>
-            </section>
+      <div class="wrap">
+        <div class="heading">
+          <p class="title">notNotion</p>
+          <p class="sub-title">Manage And Search Your Pending Tasks In Click</p>
         </div>
-    </main>
-</body>
-<script src="index.js"></script>
 
+        <section class="task-manager">
+          <div class="search-box">
+            <form id="search">
+              <input
+                type="text"
+                name="task"
+                placeholder="Search Task"
+                autocomplete="off"
+              />
+              <i class="bi bi-x-circle reset"></i>
+            </form>
+          </div>
+
+          <div class="task-box">
+            <ul class="tasks">
+              <li class="task">
+                <span>Taks 1</span>
+                <i class="bi bi-trash delete"></i>
+              </li>
+
+              <li class="task">
+                <span>Taks 2</span>
+                <i class="bi bi-trash delete"></i>
+              </li>
+
+              <li class="task">
+                <span>Taks 3</span>
+                <i class="bi bi-trash delete"></i>
+              </li>
+
+              <li class="task">
+                <span>Taks 4</span>
+                <i class="bi bi-trash delete"></i>
+              </li>
+            </ul>
+            <form class="add">
+              <input type="text" name="add-task" id="" placeholder="Add Task"/>
+              <input type="submit" name="add-button" id="" value="Add" />
+            </form>
+          </div>
+
+          <div class="message">
+            <span>you have 3 pending tasks.</span>
+            <button class="clear-all">Clear All</button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+  <script src="index.js"></script>
 </html>

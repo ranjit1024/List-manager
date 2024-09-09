@@ -8,21 +8,129 @@
     font-size: 16px;
     text-decoration: none;
     list-style: none;
+    /* margin: 200px; */
 } 
 .wrap{
     background-color: #0d4791;
     min-height: 100vh;
-    padding: 20px;
+    padding: 10px;
+    
 }
 
 .heading{
-
+    margin: 10px auto 40px auto;
+    text-align: center;
 }
 
 .heading .title{
-
+    font-size: 30px;
+    color:#ffffff;
+    font-weight: 600;
+    
 }
 
 .heading .sub-title{
+    font-size: 15px;
+    color:#ffffff;
+    font-weight: 500;
+}
 
+.task-manager{
+    min-width: 350px;
+    max-width: 450px;
+    margin: auto;
+}
+
+.search-box, .task-box, .message{
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+.search-box #search{
+    display: flex;
+    align-items: center;
+}
+
+.search-box input{
+    border-radius: 3px;
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1.4px solid black;
+}
+#search .reset{
+    /* background-color:none; */
+    font-size: 25px;
+    height: 100%;
+    padding: 10px 0px;
+    &:hover{
+        color: red;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+
+.tasks .task{
+    background-color: rgb(240, 231, 231);
+    margin: 10px 0px;
+    padding: 13px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task .delete{
+    font-size: 21px;
+    &:hover{
+        color: red;
+        cursor: pointer;
+    }
+}
+
+.task-box .add{
+    margin:30px 0px 10px 0px;
+    display: flex;
+}
+
+.task-box .add input[type="text"]{
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1.4px solid black;
+    margin-right: 10px;
+}
+
+.task-box .add input[type="submit"]{
+    border-radius: 3px;
+    padding: 10px;
+    border: 1.4px solid black;
+    background-color: lightgreen;
+    border:none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.message span{
+    /* width: 80%; */
+}
+
+.message button{
+
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    background-color: lightcoral;
+    &:hover{
+        cursor: pointer;
+    }
 }
