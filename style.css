@@ -10,6 +10,7 @@
     list-style: none;
     /* margin: 200px; */
 } 
+
 .wrap{
     background-color: #0d4791;
     min-height: 100vh;
@@ -120,9 +121,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.message span{
-    /* width: 80%; */
-}
+
 
 .message button{
 
