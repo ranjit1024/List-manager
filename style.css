@@ -11,6 +11,10 @@
     /* margin: 200px; */
 } 
 
+.hide{
+    display: none !important;
+}
+
 .wrap{
     background-color: #0d4791;
     min-height: 100vh;
